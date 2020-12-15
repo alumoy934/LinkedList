@@ -50,7 +50,7 @@ public class LinkedList{
         Element e = firstElement;
         while (e != null) {
             if (e != firstElement) {
-                System.out.print(", ");
+                System.out.println();
             }
             System.out.print(e.getObject());
             e = e.getNext();
